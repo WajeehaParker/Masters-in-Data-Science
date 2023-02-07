@@ -1,7 +1,8 @@
 Name: Wajeeha Parker
 ERPID: 27505
 Topic: Running Linux inside a docker container and showÃƒâ€šÃ‚Â execution of Linux commands (also show the memory usage)
-Video Link: 
+Video Link: (github) https://github.com/WajeehaParker/Masters-in-Data-Science/blob/main/Big%20Data%20Analytics/Assignments/Assignment%201%20-%20Running%20Linux%20in%20Docker%20(Video).mp4
+        or  (Loom)   https://www.loom.com/share/4f697e95de5c4478864ee252ffcdf7a5
 
 Commands: 
 > docker pull ubuntu
@@ -13,6 +14,7 @@ Commands:
 > ls
 > cd lib
 > mkdir bda
+> ls
 > cd bda
 > touch Ass1.txt
 > echo Topic: Running linux commands >> Ass1.txt
