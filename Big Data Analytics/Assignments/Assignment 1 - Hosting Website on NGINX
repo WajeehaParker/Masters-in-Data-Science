@@ -1,0 +1,11 @@
+Name: Wajeeha Parker
+ERPID: 27505
+Topic: Running a web server (nginx etc.) inside a container and host a basic website on it (Bonus)Ãƒâ€šÃ‚Â (also show the memory usage)
+Video Link: (github) https://github.com/WajeehaParker/Masters-in-Data-Science/blob/main/Big%20Data%20Analytics/Assignments/Assignment%201%20-%20Hosting%20Website%20on%20NGINX%20(Video).mp4
+        or  (Loom)   https://www.loom.com/share/3c28b013e64747d2be809742b04d8b05
+Website Code Link: (github) https://github.com/WajeehaParker/site5-SinglePageCompanyProfile
+
+Commands: 
+> docker pull nginx
+> docker run -it -d -p 8123:80 --name viator -v ~/Downloads/Viator/:/usr/share/nginx/html nginx
+> docker stop viator
