@@ -1,0 +1,25 @@
+Name: Wajeeha Parker
+ERPID: 27505
+Topic: Running Linux inside a docker container and showÃƒâ€šÃ‚Â execution of Linux commands (also show the memory usage)
+Video Link: 
+
+Commands: 
+> docker pull ubuntu
+> docker run -t -d --name ubntu ubuntu
+> docker exec -it ubntu bash
+
+#now run linux commands
+
+> ls
+> cd lib
+> mkdir bda
+> cd bda
+> touch Ass1.txt
+> echo Topic: Running linux commands >> Ass1.txt
+> cat Ass1.txt
+> exit
+
+#exit out of linux container
+
+> docker stop ubntu
+> docker rm ubntu
